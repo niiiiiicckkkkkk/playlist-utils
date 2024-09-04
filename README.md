@@ -1,0 +1,1 @@
+google chrome extension for more quickly removing videos from youtube playlists

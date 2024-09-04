@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "YTrash",
+    "version": "1.0",
+    "description": "Quickly Delete From Youtube Playlists",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+    },
+    "permissions": ["activeTab", "scripting"],
+    "commands": {
+        "_execute_action": {
+          "suggested_key": {
+            "default": "Ctrl+B",
+            "mac": "Command+B"
+          }
+        }
+    }
+}
